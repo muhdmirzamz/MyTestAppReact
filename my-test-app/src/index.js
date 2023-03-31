@@ -7,8 +7,8 @@ import ErrorPage from './ErrorPage';
 
 import Login from "./routes/Login";
 import Home from './routes/Home';
-// import Contact from './routes/Contact';
-// import About from './routes/About';
+import Contact from './routes/Contact';
+import About from './routes/About';
 
 
 const router = createBrowserRouter([
@@ -21,7 +21,17 @@ const router = createBrowserRouter([
         path: "/home",
         element: <Home />,
         errorElement: <ErrorPage />
-    }
+    },
+    {
+        path: "/about",
+        element: <About />,
+        errorElement: <ErrorPage />
+    },
+    {
+        path: "/contact",
+        element: <Contact />,
+        errorElement: <ErrorPage />
+    },
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

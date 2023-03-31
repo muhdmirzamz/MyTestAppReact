@@ -39,10 +39,10 @@ const Login = () => {
             <nav>
                 <ul>
                     <li>
-                    <Link to={`contact/`}>Your Name</Link>
+                    <Link to={`/contact`}>Your Name</Link>
                     </li>
                     <li>
-                    <Link to={`about/`}>About</Link>
+                    <Link to={`/about`}>About</Link>
                     </li>
                 </ul>
             </nav>
