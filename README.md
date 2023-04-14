@@ -7,6 +7,7 @@ Treat this as a reference and/or template when learning React
 - The `fetch` api
 - React Router
 - Error Page in React Router
+- Using ES6 Javascript syntax, no more classes
 
 ## How to install
 
